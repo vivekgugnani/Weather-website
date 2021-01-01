@@ -19,7 +19,7 @@ const forecast = (lat, lon, callback) => {
         undefined,
         "There is currently " +
           data.temp +
-          " degrees out, and there are " +
+          " degrees out also you feels like "+data.feels_like+" degrees, and there are " +
           data.clouds +
           "% chances of rain"
       );
